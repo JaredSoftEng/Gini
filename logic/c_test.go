@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/irifrance/gini"
-	"github.com/irifrance/gini/logic"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini"
+	"github.com/jaredsofteng/gini/logic"
+	"github.com/jaredsofteng/gini/z"
 )
 
 func TestCGrowStrash(t *testing.T) {

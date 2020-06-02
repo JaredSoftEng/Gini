@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/irifrance/gini/logic"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/logic"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // Errors related to IO and formatting

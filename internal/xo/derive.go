@@ -6,7 +6,7 @@ package xo
 import (
 	"fmt"
 
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 type Deriver struct {

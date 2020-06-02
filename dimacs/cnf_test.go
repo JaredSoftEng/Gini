@@ -5,7 +5,7 @@ package dimacs
 
 import (
 	"bytes"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 	"testing"
 )
 

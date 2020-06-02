@@ -4,7 +4,7 @@
 package logic
 
 import (
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // Card provides an interface for different implementations

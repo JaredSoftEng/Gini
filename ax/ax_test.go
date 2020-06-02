@@ -5,9 +5,9 @@ package ax
 
 import (
 	"fmt"
-	"github.com/irifrance/gini"
-	"github.com/irifrance/gini/gen"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini"
+	"github.com/jaredsofteng/gini/gen"
+	"github.com/jaredsofteng/gini/z"
 	"log"
 	"math/rand"
 	"testing"

@@ -4,8 +4,8 @@
 package ax
 
 import (
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 	"time"
 )
 

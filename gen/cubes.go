@@ -6,7 +6,7 @@ package gen
 import (
 	"math/rand"
 
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 type RandCuber interface {

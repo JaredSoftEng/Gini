@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 var cnf = [][]z.Lit{

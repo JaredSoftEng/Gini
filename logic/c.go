@@ -4,8 +4,8 @@
 package logic
 
 import (
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // C represents a formula or combinational circuit.

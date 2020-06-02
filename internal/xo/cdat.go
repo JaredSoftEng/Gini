@@ -9,7 +9,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // Type CDat: basic operations for storing all the literals (and Chds) in a CNF

@@ -5,7 +5,7 @@ package xo
 
 import (
 	"fmt"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 	"testing"
 )
 import "math/rand"

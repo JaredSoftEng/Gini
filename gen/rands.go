@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // RandS creates an inter.S which just returns  result to Solve() within a

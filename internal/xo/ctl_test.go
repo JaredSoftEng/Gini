@@ -5,7 +5,7 @@ package xo
 
 import (
 	"fmt"
-	"github.com/irifrance/gini/gen"
+	"github.com/jaredsofteng/gini/gen"
 	"log"
 	"math/rand"
 	"testing"

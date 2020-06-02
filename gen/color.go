@@ -6,8 +6,8 @@ package gen
 import (
 	"math/rand"
 
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // RandColor creates a formula asking if a random

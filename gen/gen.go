@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 )
 
 /// make the rng seedable

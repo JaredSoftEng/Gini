@@ -6,8 +6,8 @@ package gen
 import (
 	"sort"
 
-	"github.com/irifrance/gini/inter"
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/inter"
+	"github.com/jaredsofteng/gini/z"
 )
 
 // PartVar returns a variable if element i is in partition k

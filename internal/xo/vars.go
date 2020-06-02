@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irifrance/gini/z"
+	"github.com/jaredsofteng/gini/z"
 )
 
 type Vars struct {

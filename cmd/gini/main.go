@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	proto "github.com/irifrance/gini/crisp"
-	"github.com/irifrance/gini/internal/xo"
-	"github.com/irifrance/gini/z"
+	proto "github.com/jaredsofteng/gini/crisp"
+	"github.com/jaredsofteng/gini/internal/xo"
+	"github.com/jaredsofteng/gini/z"
 )
 
 var pprofAddr = flag.String("pprof", "", "address to serve http profile (eg :6060)")

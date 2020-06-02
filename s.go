@@ -3,7 +3,7 @@
 
 package gini
 
-import "github.com/irifrance/gini/inter"
+import "github.com/jaredsofteng/gini/inter"
 
 // NewS creates a new solver, which is the Gini
 // implementation of inter.S.
