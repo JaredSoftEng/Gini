@@ -2,4 +2,4 @@ module github.com/jaredsofteng/gini
 
 go 1.14
 
-require github.com/irifrance/gini v1.0.1
+require github.com/jaredsofteng/gini v1.0.1
