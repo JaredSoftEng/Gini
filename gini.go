@@ -277,3 +277,9 @@ func (g *Gini) Deactivate(m z.Lit) {
 func (g *Gini) Write(dst io.Writer) error {
 	return g.xo.Cdb.Write(dst)
 }
+
+// ClauseDB fetches the Cdb structure to expose the clauses for manipulation
+func (g *Gini) ClauseDB() *xo.Cdb {
+	return g.xo.Cdb
+}
+

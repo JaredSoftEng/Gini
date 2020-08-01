@@ -22,7 +22,7 @@ type CnfVis interface {
 	Eof()
 }
 
-// Interface ICnfVis is an interface for eading icnf files.
+// Interface ICnfVis is an interface for reading icnf files.
 type ICnfVis interface {
 
 	// Add adds a literal like inter.Adder.
