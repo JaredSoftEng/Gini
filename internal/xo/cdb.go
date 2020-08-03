@@ -42,10 +42,6 @@ type Cdb struct {
 	stHeatRescales int64
 }
 
-func GetGC(c *Cdb) *Cgc {
-	return c.gc
-}
-
 func NewCdb(v *Vars, capHint int) *Cdb {
 	if capHint < 3 {
 		capHint = 3
@@ -172,6 +168,10 @@ Done:
 
 func (c *Cdb) Remove(cs ...z.C) {
 	c.gc.Remove(c, cs...)
+}
+
+func (c *Cdb) GetGC() *Cgc {
+	return c.gc
 }
 
 func (c *Cdb) Learn(ms []z.Lit, lbd int) z.C {

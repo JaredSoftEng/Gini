@@ -282,4 +282,3 @@ func (g *Gini) Write(dst io.Writer) error {
 func (g *Gini) ClauseDB() *xo.Cdb {
 	return g.xo.Cdb
 }
-
