@@ -42,6 +42,10 @@ type Cdb struct {
 	stHeatRescales int64
 }
 
+func GetGC(c *Cdb) *Cgc {
+	return c.gc
+}
+
 func NewCdb(v *Vars, capHint int) *Cdb {
 	if capHint < 3 {
 		capHint = 3
