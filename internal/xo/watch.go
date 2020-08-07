@@ -16,15 +16,28 @@ type Watch uint64
 // TBD: make this uintptr size dependent for 32 bit architectures
 const (
 	litBits = 31
-	litMask = ((1 << 31) - 1)
+	litMask = (1 << 31) - 1
 	locMask = uint64(0xffffffff << litBits)
-	binMask = (1 << 63)
+	binMask = 1 << 63
 )
 
 // MakeWatch creates a watch object for clause location loc
 // blocking literal o, and isBin indicating whether the referred to
 // clause is binary (comprised of 2 literals)
 func MakeWatch(loc z.C, o z.Lit, isBin bool) Watch {
+	v := uint64(0)
+	if isBin {
+		v |= binMask
+	}
+	v |= uint64(o)
+	v |= uint64(loc) << litBits
+	return Watch(v)
+}
+
+// NewWatch creates a watch object for clause location loc
+// blocking literal o, and isBin indicating whether the referred to
+// clause is binary (comprised of 2 literals)
+func (w Watch) NewWatch(loc z.C, o z.Lit, isBin bool) Watch {
 	v := uint64(0)
 	if isBin {
 		v |= binMask
