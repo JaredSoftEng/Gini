@@ -174,6 +174,11 @@ func (c *Cdb) GetGC() *Cgc {
 	return c.gc
 }
 
+func (c *Cdb) GetWatch() Watch {
+	var w Watch
+	return w
+}
+
 func (c *Cdb) Learn(ms []z.Lit, lbd int) z.C {
 	ret := c.CDat.AddLits(MakeChd(true, lbd, len(ms)), ms)
 	if c.Active != nil {
